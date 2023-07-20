@@ -1,0 +1,56 @@
+.section-title{
+    text-align: center;
+}
+.section-title h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+/*! categories start */
+.categories{
+    margin: 40px;
+}
+.categories .category-list{
+   display: flex;
+   gap: 30px;
+   margin-top: 30px;
+   flex-wrap: wrap;
+}
+
+/*! categories end */
+/*! products start */
+.products{
+    margin-bottom: 40px;
+}
+
+.products .product-list{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+/*! products end */
+
+/*! campaigns  start*/
+.campaigns .campaigns-wrapper{
+display: flex;
+gap: 30px;
+margin: 30px;
+flex-wrap: wrap;
+}
+/*! campaigns   end */
+/*! blog start   */
+.blogs {
+    margin-bottom: 30px;
+  }
+.blogs .blog-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+/*! blog   end */
+/*! responsive  */
+
+@media (max-width: 768px) {
+    .blogs .blog-list {
+      grid-template-columns: 1fr;
+    }
+  }
