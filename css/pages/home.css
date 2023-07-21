@@ -33,10 +33,12 @@
 .campaigns .campaigns-wrapper{
 display: flex;
 gap: 30px;
-margin: 30px;
+margin: 30px 0;
 flex-wrap: wrap;
 }
 /*! campaigns   end */
+
+  
 /*! blog start   */
 .blogs {
     margin-bottom: 30px;
@@ -53,4 +55,8 @@ flex-wrap: wrap;
     .blogs .blog-list {
       grid-template-columns: 1fr;
     }
+    .policy .policy-list {
+        flex-direction: column;
+      }
   }
+
