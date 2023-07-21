@@ -33,7 +33,6 @@ p {
   margin: 0;
 }
 .container {
-  background-color: none;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
@@ -44,7 +43,6 @@ p {
   display: flex;
 }
 button{
-  line-height: 40px;
   cursor: pointer;
   border: none;
  
@@ -52,8 +50,9 @@ button{
 .btn{
   display: inline-block;
   padding: 0 25px;
+  line-height: 40px;
   border: 1px solid black;
-  font-weight: 500w;
+  font-weight: 500;
   transition: .2s ease all;
   
 }
@@ -77,13 +76,18 @@ button{
   color: #1367ef;
   
 }
+textarea {
+  overflow: auto;
+}
+
 input[type="text"],
 input[type="password"],
 input[type="email"],
-input[type="number"]{
-  outline: none;
-  border: 1px solid #dee0ea;
-  padding: 8px 8px 8px 15px;
+input[type="number"]
+  textarea {
+    outline: none;
+    border: 1px solid #dee0ea;
+    padding: 8px 8px 8px 15px;
   
   
 }
